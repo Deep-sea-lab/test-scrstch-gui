@@ -21,7 +21,7 @@ jobs:
       run: node setup.js
       
     - name: Build
-      run: npm run build
+      run: sudo npm run build
 
     - name: Zip dist
       run: zip -r fuck_you_turbowarp.zip ./
