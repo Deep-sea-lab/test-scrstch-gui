@@ -26,9 +26,6 @@ jobs:
     - name: Install dependencies222
       run: npm i
 
-    - name: Install dependencies333
-      run: npm i --save-dev webpack@latest
-
       
     - name: Build
       run: npm run build
