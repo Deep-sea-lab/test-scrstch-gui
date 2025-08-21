@@ -59,6 +59,7 @@ const base = {
         publicPath: root
     },
     resolve: {
+        fallback: {path:false,crypto:false},
         symlinks: false,
         alias: {
             'text-encoding$': path.resolve(__dirname, 'src/lib/tw-text-encoder'),
